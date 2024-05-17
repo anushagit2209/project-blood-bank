@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-image: url(bloodbank.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #010000;
+    margin: 0; /* Reset default margin to remove any unwanted space */
+}
+
+/* Center the .main container vertically and horizontally */
+.main {
+    width: 30%; /* Increase the width to your liking */
+    margin: 0 auto;
+    background-color: rgba(255, 0, 0, 0.8); /* Add background color with opacity */
+    padding: 10px;
+    /*border-radius: 10px;*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center the child elements horizontally */
+}
+.input-[name^="box-icon-"]  {
+    position: relative;
+}
+
+.input-[name^="box-icon-"]  {
+    position: absolute;
+    left: 10px; /* Adjust the icon's position */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #000000; /* Icon color */
+    font-size: 18px; /* Icon size */
+}
+/* Style form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+    font-weight: bold;
+      
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="date"] {
+    width: 100%; /* Adjust the input width */
+    padding: 15px;
+    margin-bottom: 0px; /* Adjust the margin */
+    border: none;
+    border-radius: 10px;
+}
+/* Style the button */
+button[type="submit"] {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button[type="reset"] {
+    background-color: #fff2f2;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+
+/* Add some spacing between buttons */
+button[type="submit"] {
+    margin-top: 10px; /* Add margin to separate the button from other elements */
+}
+button[type="reset"] {
+    margin-top: 10px; /* Add margin to separate the button from other elements */
+}
+/* Style placeholders to be rounded */
+input::placeholder {
+    border-radius: 5px;
+    padding: 5px;
+}

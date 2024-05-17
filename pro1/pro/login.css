@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(bloodbank.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    color: #010000;
+}
+.wrapper {
+    width: 15%; /* Increase the width */
+    margin: 0 auto;
+    background-color: rgb(255, 0, 0);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex; /* Use flexbox to create space in the middle */
+    justify-content: space-between; /* Adjust the space between login and signup */
+}
+#login {
+    text-align: center;
+    padding: 50px; /* Increase the padding */
+    background-color: rgba(255, 0, 0, 0.96);
+    border-radius: 50px; /* Add border-radius */
+    flex: 1; /* Distribute space evenly between login and signup */
+    margin: 10px; /* Add some margin to separate the sections */
+}
+
+/* Style form labels and input fields */
+label {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+input[type="text"],
+input[type="password"]
+ {
+    width: 100%; /* Adjust the input width */
+    padding: 15px;
+    
+    border: none;
+    border-radius: 10px;
+}
+button[type="submit"]{
+    background-color: #000000; /* Red color, you can change this */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Add some spacing between buttons */
+button[type="submit"] {
+    margin-right: 10px;
+}

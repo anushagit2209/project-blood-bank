@@ -1,0 +1,42 @@
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Style the header (h1) */
+h1 {
+    color: #e74c3c;
+    margin-top: 20px;
+}
+
+/* Style the FAQ list */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style FAQ items (li) */
+li {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Style the bullet points */
+li::before {
+    content: "• ";
+    color: #e74c3c;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 18px;
+    color: #333;
+}
